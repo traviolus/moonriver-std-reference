@@ -19,6 +19,12 @@ The prices themselves are the median of the values retrieved by BandChain's vali
 
 For the ease of development, the Band Foundation will be maintaining and updating the [StdReferenceBasic](https://moonriver.subscan.io/account/0xe89EA92AcA177B487F9c3502a7Cb9D76Dc5F5d84) contract with the latest price data. In the near future, we will be releasing guides on how developers can create similar contracts themselves to retrieve data from Band's oracle.
 
+## Files and Usage
+- `StdReferenceProxy.sol` Solidity implementation of the Band's  StdReferenceProxy contract.
+- `abi.json` ABI of the proxy contract.
+- `example.py` Python example query call to the proxy contract on MoonRiver.
+- `Pipfile` Dependencies for `example.py`
+
 ## List of Band oracle contracts on MoonRiver
 
 | Deployed contracts | Address  |
